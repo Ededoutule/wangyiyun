@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+	color:#000;
+}
+li {
+    list-style: none;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.clearFloat::after{
+    display: block;
+    content: "";
+    clear: both;
+}
